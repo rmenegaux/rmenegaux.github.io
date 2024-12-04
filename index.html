@@ -7,7 +7,9 @@
 
     <meta name="author" content="Romain Menegaux">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
@@ -22,22 +24,24 @@
                 <p class="name" style="text-align: center;">
                   Romain Menegaux
                 </p>
-                <p>I am a PostDoc at <a href="https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes">Inria</a> in Grenoble, in the  <a href="https://team.inria.fr/thoth/">Thoth</a> team, supervised by <a href="https://lear.inrialpes.fr/people/mairal/">Julien Mairal</a>.
+                <p>I am a <strong>Starting Research Fellow</strong> at <a href="https://www.inria.fr/fr/centre-inria-universite-grenoble-alpes">Inria Grenoble</a> in the  <a href="https://team.inria.fr/thoth/">Thoth team</a> team, supervised by <a href="https://lear.inrialpes.fr/people/mairal/">Julien Mairal</a>.
                 </p>
                 <p>
-                  I hold a PhD in machine learning and bioinformatics from Mines Paristech <a href="https://cbio.mines-paristech.fr/welcome-to-the-cbio-wiki">CBIO</a> team  under the supervision of <a href="https://jpvert.github.io">Jean-Philippe Vert</a>.
+                  I earned my <strong>PhD in machine learning and bioinformatics</strong> from Mines Paristech as part of the <a href="https://cbio.mines-paristech.fr/welcome-to-the-cbio-wiki">CBIO team</a>,  under the supervision of <a href="https://jpvert.github.io">Jean-Philippe Vert</a>. 
+                  <br>
+                  Prior to my PhD, I obtained master's degrees from Ecole Polytechnique and Columbia. I then spent 3 years as a research scientist at Bloomberg in New York before returning to France to pursue academic research.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:romain.menegaux@gmail.com">Email</a> &nbsp;/&nbsp;
                   <a href="data/romainmenegaux-CV.pdf">CV</a> &nbsp;/&nbsp;
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <a href="https://scholar.google.com/citations?hl=en&user=BMfL3BoAAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/romainmenegaux">Twitter</a> &nbsp;/&nbsp;
+                  <!-- <a href="https://twitter.com/romainmenegaux">Twitter</a> &nbsp;/&nbsp; -->
                   <a href="https://github.com/rmenegaux/">Github</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/RomainMenegaux.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/RomainMenegaux.jpg" class="hoverZoomLink"></a>
+                <a href="images/profile-chartreuse.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/profile-chartreuse.png" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
@@ -46,7 +50,9 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in... .
+                  I'm interested in applications of machine learning to healthcare and biology, with a focus on Transformers, graph neural networks and optimization. I also have ongoing projects in flow matching, 3D-scene modelling and geoscience.
+                  <br>
+                  Below is a list of my recent publications.
                 </p>
               </td>
             </tr>
@@ -71,44 +77,161 @@
         <a href="https://michaelarbel.github.io/">Michael Arbel</a>,
         <a href="https://dlarlus.github.io/">Diane Larius</a>,
 				<a href="https://lear.inrialpes.fr/people/mairal/">Julien Mairal</a>,
-        <!--<br>
-        <em>SIGGRAPH Asia</em>, 2024
-        <br> -->
+        <br>
+        <em>Preprint</em>, 2024
+        <!-- <br>
         <a href="https://rmenegaux.github.io/LUDVIG">project page</a>
         /
         <a href="https://arxiv.org/abs/2410.14462">arXiv</a>
-        <p></p>
+        <p></p> -->
         <p>
         Lifting 2D visual features from pretrained models to 3D Gaussian Splatting scenes with a simple aggregation scheme and no optimization.
         </p>
       </td>
     </tr>
 
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/Gauss-Newton.png' width=100%>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/6a14c7f9fb3f42645cfa6bd5aa446819-Paper-Conference.pdf">
+          <span class="papertitle">Rethinking Gauss-Newton for learning over-parameterized models</span>
+        </a>
+        <br>
+				
+        <a href="https://michaelarbel.github.io/">Michael Arbel</a>,
+        <strong>Romain Menegaux</strong>,
+        <a href="https://pierre-wolinski.fr/">Pierre Wolinski</a>,
+        <br>
+        <em>NeurIPS 2023</em>
+        <br>
+        <p>
+        A global convergence result for Gauss-Newton in over-parameterized one-hidden layer neural networks, and an empirical study showing hidden learning with small initialization and small step-size.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/CSA-attention-map.png' width=100%>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2304.10933">
+          <span class="papertitle">Self-Attention in Colors: Another Take on Encoding Graph Structure in Transformers</span>
+        </a>
+        <br>
+				
+        <strong>Romain Menegaux</strong>,
+        <a href="https://fr.linkedin.com/in/emmanuel-jehanno">Emmanuel Jehanno</a>,
+        <a href="https://fr.linkedin.com/in/margot-selosse-06a86b43/">Margot Selosse</a>,
+				<a href="https://lear.inrialpes.fr/people/mairal/">Julien Mairal</a>,
+        <br>
+        <em>TMLR 2023</em>
+        <br>
+        <p></p>
+        <p>
+        Encoding graph structure in Transformers for molecule property prediction, and introducing a novel attention mechanism.
+        <br>
+        State of the art on the ZINC benchmark dataset.
+      </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/dna-contigs.png' width=100%>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.biorxiv.org/content/10.1101/2020.03.06.980979v1.full.pdf">
+          <span class="papertitle">Embedding the de Bruijn graph, and applications to metagenomics</span>
+        </a>
+        <br>
+				
+        <strong>Romain Menegaux</strong>,
+				<a href="https://jpvert.github.io">Jean-Philippe Vert</a>,
+        <br>
+        <em>BiorXiv Preprint 2020</em>
+        <p>
+        Vocabulary reduction in DNA textual embeddings by mapping DNA "tokens" to their corresponding nodes in a de Bruijn graph. 
+      </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <img src='images/abundance-profiling.png' width=100%>
+        </div>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://www.liebertpub.com/doi/pdf/10.1089/cmb.2018.0174">
+          <span class="papertitle">Continuous embeddings of DNA sequencing reads and application to metagenomics</span>
+        </a>
+        <br>
+				
+        <strong>Romain Menegaux</strong>,
+				<a href="https://jpvert.github.io">Jean-Philippe Vert</a>,
+        <br>
+        <em><strong>Best Paper</strong> at the ICML 2018 Comp. Bio. Workshop</em>
+        <br>
+        <em>Journal of Computational Biology 2019</em>
+        <p>
+        DNA sequence classification with textual embeddings, paper for the <a href="https://github.com/rmenegaux/fastDNA">fastDNA</a> software. 
+      </p>
+      </td>
+    </tr>
+
           </tbody></table>
 
-  <!--        
+         
 					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
               <td>
-                <h2>Teaching</h2>
+                <h2> Selected Teaching</h2>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-           
+            
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="colored-box" style="background-color:#853033; display: inline-block;">
+                  <img src='https://static.aimsammi.org/themes/understrap-child/img/AIMS-Logo-White.png' style="width: 100%;">
+                </div>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://github.com/rmenegaux/kernels-AMMI-2022">
+                  <span class="papertitle">Kernel Methods in Machine Learning</span>
+                </a>
+                <br>
+                <a href="https://aimsammi.org/">African Master's in Machine Intelligence</a>, 2020; 2022; 2024
+                <p>Teaching Assistant with <a href="https://jpvert.github.io">Jean-Philippe Vert</a></p>
+                <br>
+              </td>
+            </tr>
+
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
-						     <div class="colored-box" style="background-color: #edd892;">
-								 <h2>Teaching</h2>
+						     <div class="colored-box" style="background-color: #3b2a9a; display: inline-block">
+                  <img src='https://www.dataia.eu/themes/dataia/css/images/DATAIA-h-sansfond.png' style="width: 100%;">
 								 </div>
               </td>
-              <td style="padding:8px;width:80%;vertical-align:center">
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">Graduate Student Instructor, CS188 Spring 2011</a>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="https://www.dataia.eu/en/events/sacl-ai-4-science-workshop">
+                  <span class="papertitle">Intro to Deep Learning</span>
+                </a>
                 <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">Graduate Student Instructor, CS188 Fall 2010</a>
-                <br>
-                <a href="http://aima.cs.berkeley.edu/">Figures, "Artificial Intelligence: A Modern Approach", 3rd Edition</a>
+                <a href="https://www.dataia.eu/en/events/sacl-ai-4-science-workshop">Sacl-AI 4 Science Workshop</a>, 2024
+                
               </td>
+            
             </tr>
             
           </tbody></table>
@@ -117,7 +240,7 @@
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Website stolen from <a href="https://github.com/jonbarron/jonbarron_website">source code</a>.
+                  Website template graciously lifted from <a href="https://github.com/jonbarron/jonbarron_website">source code</a>.
                 </p>
               </td>
             </tr>
@@ -125,6 +248,6 @@
         </td>
       </tr>
     </table>
-  -->
+  
   </body>
 </html>
